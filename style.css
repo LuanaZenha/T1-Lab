@@ -1,0 +1,123 @@
+body {
+    background-color: darkred;
+}
+
+header {
+    background-color: black;
+    
+    
+}
+
+.grid-template-columns-1 {
+	grid-template-columns: 100px 100px 100px 100px;
+    
+
+}
+
+.item {
+	margin: 5px;
+	background: darkred;
+	text-align: center;
+	font-size: 1.5em;
+    
+}
+
+.grid {
+	max-width: 400px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+    display: flex;
+    margin-right: 20px; 
+}
+
+h1 {
+	text-align: center;
+	font-size: 1.25em;
+	font-weight: normal;
+}
+
+body {
+	font-family: monospace;
+	color: #000000;
+	margin: 0px;
+	padding-bottom: 60px;
+}
+
+body > div {
+	padding: 40px 0;
+}
+
+body > div:nth-of-type(even) {
+	background: rgba(164, 0, 0, 0.03);
+}
+
+.logo {
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+header > div {
+    display: flex;
+    justify-content: space-around;
+}
+
+header > div > ul > h3 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+header > div > ul > li > a{
+    background-color: darkred;
+}
+
+#historia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo2 {
+    width: 150px;
+    height: 150px;
+    margin: 3%;
+    
+    
+}
+
+.container {
+    display: flex;
+    align-items:center;
+    text-align: justify; text-indent: 50px;
+    gap: 50px;
+    justify-content: center;
+    margin: 5%;
+      
+}
+
+.backup {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 1%
+}
+
+.container2 {
+    display: flex;
+    align-items:center;
+    text-align:left ; text-indent: 50px;
+    gap: 50px;
+    justify-content: center;
+    margin: 5%
+}
+#topicos {
+    margin: 5%
+}
+
+.rodape {
+text-align: center;
+
+}
